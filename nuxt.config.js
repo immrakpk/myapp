@@ -84,7 +84,7 @@ export default {
     }
   },
   axios: {
-    baseURL: 'http://172.26.0.134:8000'
+    baseURL: 'https://172.26.0.134:8000'
   },
 
 
