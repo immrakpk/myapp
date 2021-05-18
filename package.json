@@ -9,8 +9,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/auth-next": "^5.0.0-1620773067.c356fed",
-    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/auth-next": "5.0.0-1620773067.c356fed",
+    "@nuxtjs/axios": "^5.13.4",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3"
   },
