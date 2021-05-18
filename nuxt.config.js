@@ -14,9 +14,17 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+        link: [
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { rel: 'stylesheet', href:'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'},
+            { rel: 'stylesheet', href:'https://use.fontawesome.com/releases/v5.7.2/css/all.css'},
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap' },
+        ],
+        script: [
+          {src: "https://code.jquery.com/jquery-3.3.1.min.js", type: "text/javascript"},
+          {src: "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js", type: "text/javascript"},
+          {src: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js", type: "text/javascript"},
+        ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -76,7 +84,7 @@ export default {
     }
   },
   axios: {
-    baseURL: 'http://172.26.0.134:8000'
+    baseURL: 'https://172.26.0.134:8000'
   },
 
 
